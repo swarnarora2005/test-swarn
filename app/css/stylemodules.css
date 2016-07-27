@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+*, body{margin:0px; padding:0px; font-family:Calibri; font-size:18px; } 
+.mancontainer{margin:10px auto; padding:25px; height:auto; background:#F1F1F1; border:1px solid #EBEBEB; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -o-border-radius:10px; -webkit-touch-callout: none;    -webkit-user-select: none;    -khtml-user-select: none;    -moz-user-select: none;    -ms-user-select: none;    user-select: none;}
+
+.mancontainer .leftBlock{ margin-top:50px; margin-left:0px; float:left;}
+.mancontainer .leftBlock .leftIn{ width:100%; position:relative; }
+
+.mancontainer .leftBlock .leftIn ul{width:100%; display:block;}
+.mancontainer .leftBlock .leftIn ul li{position:absolute; left:0px; display:block; width:170px; padding:8px; text-align:center; color:#FFF; background:#8ac53b; margin-bottom:2px; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; border:1px solid black; -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.57); -moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.57); box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.57);}
+.mancontainer .leftBlock .leftIn ul li .pinBlck{width:36px; position:absolute; top:-20px; left:77px; background:url(../images/pins_1.png) no-repeat; height:36px; background-position:0 0%; background-size:cover;}
+
+.pinAddded{display:none;}
+.transition {-webkit-transform: scale(.5); -moz-transform: scale(.5); -o-transform: scale(.5); transform: scale(.5);}
+
+.mancontainer .rightBlock{float:right; position:relative; padding-right:40px;}
+
+.circle{position:absolute; box-sizing:border-box;}
+.cursor{cursor:url(../images/pointer_v2.png) 20 20,auto;}
+.clearAll{clear:both;}
+
