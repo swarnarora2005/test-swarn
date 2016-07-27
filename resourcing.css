@@ -1,0 +1,203 @@
+.selectormenu-container {
+  margin: 30px 0;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: black; }
+  .selectormenu-container .selector-main {
+    display: inline-block; }
+    .selectormenu-container .selector-main.edited .selector-outer {
+      background-color: #F5E53B;
+      border-color: #F5E53B; }
+      .selectormenu-container .selector-main.edited .selector-outer .selector-text {
+        background-color: #F5E53B; }
+    .selectormenu-container .selector-main.done .selector-outer {
+      background-color: #2CC0B0;
+      border-color: #2CC0B0; }
+      .selectormenu-container .selector-main.done .selector-outer .selector-text {
+        background-color: #2CC0B0; }
+    .selectormenu-container .selector-main.iscurrent .selector-outer {
+      background-color: white; }
+    .selectormenu-container .selector-main .selector-outer {
+      border: 2px solid #E3E4E5;
+      background-color: #E3E4E5;
+      padding: 5px;
+      border-radius: 18px;
+      width: 130px; }
+      .selectormenu-container .selector-main .selector-outer .selector-text {
+        background-color: #E3E4E5;
+        border-radius: 25px;
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 16px; }
+    .selectormenu-container .selector-main:hover .tooltip {
+      visibility: visible; }
+  .selectormenu-container .horizontal-line {
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    background-color: #E3E4E5;
+    position: absolute;
+    z-index: -1; }
+
+.region-selector {
+  font-weight: 200;
+  height: 40px; }
+
+.region-dropdown {
+  margin: 0 15px; }
+
+.resource-view .brand-td-wrapper .checkbox-container,
+.resource-view .ta-input .checkbox-container {
+  padding-left: 25px; }
+
+.resource-view .header-panel {
+  margin-top: 25px; }
+
+.resource-view .bordered-btn,
+.resource-view .currency-name {
+  margin-left: 10px; }
+
+.resource-view td,
+.resource-view th {
+  font-size: 13px; }
+
+.resource-view .info-icon {
+  display: inline-block;
+  background: transparent url("../../global/images/info_icon.png") center no-repeat;
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  position: relative;
+  top: 3px; }
+  .resource-view .info-icon:hover .tooltip {
+    visibility: visible; }
+  .resource-view .info-icon .tooltip:before {
+    left: 4px; }
+  .resource-view .info-icon .tooltip:after {
+    left: -5px;
+    width: 500px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.3;
+    text-align: justify; }
+
+.resource-view .total-row {
+  background-color: #DEF6FF;
+  border: 1px solid #03AEEF;
+  border-radius: 5px; }
+
+.resource-view input[type=checkbox] {
+  display: none; }
+
+.resource-view .table-heading-container {
+  border-bottom: 1px solid #CCCCCC; }
+
+.resource-view .activity-column-heading {
+  vertical-align: middle;
+  padding-left: 20px; }
+
+.resource-view .width-35 {
+  width: 35%; }
+
+.resource-view .sub-heading {
+  padding: 20px 20px 5px;
+  font-style: italic; }
+
+.resource-view .main-heading {
+  padding: 10px; }
+
+.resource-view .expand-close-icon {
+  margin-right: 10px; }
+
+.resource-view .sub-activities-wrapper .table-sub-activities {
+  margin-bottom: 15px; }
+
+.resource-view .ta-wrapper {
+  padding: 10px 25px 0;
+  background-color: white; }
+  .resource-view .ta-wrapper :last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+
+.resource-view .checkbox-width {
+  width: 11.5%; }
+  .resource-view .checkbox-width .td-wrapper {
+    padding-left: 32%; }
+
+.resource-view .input-checkbox {
+  padding-left: 25%; }
+
+.resource-view .brand-td-wrapper {
+  padding-left: 32%; }
+
+.resource-view .table-ta {
+  border: none; }
+  .resource-view .table-ta .panel-heading {
+    background-color: #F7FCFF; }
+  .resource-view .table-ta .panel-body {
+    background-color: white; }
+
+.resource-view .tbody-brand .brand-heading {
+  padding-left: 40px; }
+
+.resource-view .resource-table .heading-container,
+.resource-view .resource-table .td-wrapper {
+  padding: 10px 10px 10px 20px; }
+  .resource-view .resource-table .heading-container input,
+  .resource-view .resource-table .td-wrapper input {
+    width: 100%; }
+
+.resource-view .resource-table .activity-heading-container input {
+  width: inherit;
+  margin-left: 10px; }
+
+.opmetrics-view .resource-table .first-heading-width {
+  width: 38%; }
+
+.opmetrics-view .resource-table .manual-total {
+  margin-left: 15px;
+  margin-top: 5px; }
+
+.opmetrics-view .resource-table .right-align {
+  margin-right: 25px; }
+
+.opmetrics-view .resource-table .heading-container,
+.opmetrics-view .resource-table .td-wrapper {
+  padding: 10px; }
+  .opmetrics-view .resource-table .heading-container.activity-heading-container,
+  .opmetrics-view .resource-table .td-wrapper.activity-heading-container {
+    padding-left: 25px; }
+
+.opmetrics-view .resource-table .activity-input input,
+.opmetrics-view .resource-table .ta-input input {
+  width: inherit;
+  margin: auto;
+  max-width: 100%; }
+
+.opmetrics-view .resource-table .activity-input .td-wrapper {
+  text-align: center; }
+
+.opmetrics-view .main-heading {
+  font-size: 16px; }
+
+.opmetrics-view .region-selector {
+  display: none; }
+
+.opmetrics-view .isAverageActivity,
+.opmetrics-view .isDollar,
+.opmetrics-view .isPercent {
+  display: none; }
+
+.opmetrics-view .field-table-row:first-of-type .table-sub-activities {
+  margin-top: 25px; }
+
+.opmetrics-view .table-heading-container {
+  padding: 10px 0 15px;
+  color: #494A4B; }
+
+.opmetrics-view .activity-input-row.input-row {
+  text-align: left; }
